@@ -57,11 +57,12 @@ public class Soru01 {
         aramaButon.sendKeys("Nutella" + Keys.ENTER);
 
         // 9- Kac sonuc bulundugunu yaziniz
-
+        WebElement summarySayisi = driver.findElement(By.xpath("//div[@class='result-summary-container']"));
+        System.out.println(summarySayisi.getText());
 
 
        // 10-Sayfayi kapatin
-
+        driver.close();
 
     }
 }

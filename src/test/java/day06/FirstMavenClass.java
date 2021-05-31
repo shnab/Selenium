@@ -34,7 +34,7 @@ public class FirstMavenClass {
         List<WebElement> basliklarListesi = driver.findElements(By.xpath("//span[@class='a-size-base a-color-base']"));
 
         for(WebElement each : basliklarListesi){
-            System.out.println(" Baslilar listesi " + each.getText());
+            System.out.println(" Basliklar listesi " + each.getText());
         }
 
         //basliklarListesi.stream().forEach(x-> System.out.println(x.getText()));
