@@ -52,12 +52,13 @@ public class Soru01 {
             System.out.println("URL walmart.com icermiyor,TEST FAILED");
             System.out.println("current URL" + currentURL);
         }
-
         //8-”Nutella” icin arama yapiniz
        WebElement aramaButon = driver.findElement(By.xpath("//input[@placeholder='Search Walmart.com']"));
         aramaButon.sendKeys("Nutella" + Keys.ENTER);
 
         // 9- Kac sonuc bulundugunu yaziniz
+
+
 
        // 10-Sayfayi kapatin
 
