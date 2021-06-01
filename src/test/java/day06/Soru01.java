@@ -60,7 +60,6 @@ public class Soru01 {
         WebElement summarySayisi = driver.findElement(By.xpath("//div[@class='result-summary-container']"));
         System.out.println(summarySayisi.getText());
 
-
        // 10-Sayfayi kapatin
         driver.close();
 
